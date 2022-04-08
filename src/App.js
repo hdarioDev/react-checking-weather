@@ -23,7 +23,6 @@ function App() {
         const response = await fetch(url)
         const result = await response.json()
         setResultApi(result)
-
         setSend(false)
         setSearch({
           city: '',
@@ -31,7 +30,6 @@ function App() {
         })
       }
       getApi()
-
     }
   }, [send])
 
@@ -48,14 +46,13 @@ function App() {
           send={send}
           setSend={setSend}
         ></Form>
+
         <Clima
           resultApi={resultApi}
         ></Clima>
+
       </Layout>
-
     </React.Fragment>
-
-
   )
 }
 

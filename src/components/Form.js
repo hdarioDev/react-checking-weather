@@ -36,10 +36,8 @@ function Form({ search, setSearch, send, setSend }) {
                 </select>
                 <label>Ciudad</label>
                 <input type="text" name="city" value={city} onChange={handleChange}></input>
-
-                <input type="submit" value="Consular" className='submit'></input>
+                <input type="submit" value="Buscar" className='submit'></input>
             </form>
-
         </React.Fragment>
     )
 }
