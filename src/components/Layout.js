@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Layout({ children }) {
-    console.log("children.length  ", children[1])
     return (
         <React.Fragment>
             <section className='main--container'>
